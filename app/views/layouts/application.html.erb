@@ -12,8 +12,11 @@
   </head>
 
   <body>
-
+    <%= render 'layouts/nav' %>
     <%= yield %>
+    <%= render 'layouts/layout' %>
+    <%= render 'layouts/footer' %>
+
     <%= javascript_include_tag "application" %>
   </body>
 </html>

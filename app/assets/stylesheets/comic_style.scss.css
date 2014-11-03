@@ -46,3 +46,11 @@ body{
   border:1px solid #222;
   box-shadow:3px 3px 0 #222;
 }
+
+body {
+  background: url('https://www.dropbox.com/s/y8eyujpc8pexyvs/cp.png?dl=0') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

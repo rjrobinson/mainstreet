@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: mainstreet_production
-  username: mainstreet
-  password: <%= ENV['MAINSTREET_DATABASE_PASSWORD'] %>
+  username: #mainstreet
+  password: #<%= ENV['MAINSTREET_DATABASE_PASSWORD'] %>
